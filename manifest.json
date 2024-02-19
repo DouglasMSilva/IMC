@@ -1,0 +1,30 @@
+{
+    "name": "Cálculo IMC",
+    "start_url": ".",
+    "lang": "pt-BR",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "fullscreen",
+    "icons": [
+  
+      {
+        "src": "imc.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose" : "any maskable"
+  
+      }
+    ],
+  
+    
+  
+    
+      "prefer_related_applications": false,
+      "orientation": "portrait-primary"
+    
+    
+    
+  }
+
+
+  

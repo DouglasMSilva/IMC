@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: linear-gradient(45deg, mediumblue, royalblue, dodgerblue);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+#texto{
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.form label {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.info h6 {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #0D6EFD;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.info .verificar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.info p {
+    text-align: center;
+    font-size: 15.5px;
+    margin-top: 10px;
+}
+
+.info .classificacao p {
+    font-weight: bold;
+}
+
+.form input {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.form button {
+   box-shadow: 1px 1px 1px #bba;
+   border-radius: 20px;
+   font-weight: bold;
+   letter-spacing: .5px;
+}
+
+.desenhoFormula {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.imceq {
+    margin-top:  10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.formula {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.noLine {
+    color: #fff;
+    font-weight: bold;
+}
+
+.line {
+    width: 200px;
+    height:1px;
+    background-color: #fff;
+    color: #fff;
+    font-weight: bold;
+}
+
+span {
+    margin-top: 5px;
+    display: none;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        height: 240px;
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 10px;
+    
+    }
+
+    .form label {
+        font-size: 13px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 240px;
+        height: 260px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .info p {
+        font-size: 13px;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    #texto {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #texto {
+        font-size: 12.1px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    body {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+@media screen and (max-height: 915px) {
+    #texto {
+        padding: 3px;
+        /* font-size: 12px; */
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #texto {
+        font-size: 8px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 20px;
+    
+    }
+
+    .form label {
+        font-size: 10px;
+    }
+
+    .form input {
+        font-size: 10px;
+    }
+    
+    .form button {
+        font-size: 14px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+    
+    }
+
+
+    .info h6 {
+        font-size: 15px;
+    }
+
+
+    .info p {
+        font-size: 10px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    .desenhoFormula {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        gap: 10px;
+        margin-right: 20px;
+    }
+    
+    .imceq {
+        margin-top:  10px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    .formula {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .noLine {
+        color: #fff;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    .line {
+        width: 130px;
+        height:1px;
+        background-color: #fff;
+        color: #fff;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+}
+
+ 
